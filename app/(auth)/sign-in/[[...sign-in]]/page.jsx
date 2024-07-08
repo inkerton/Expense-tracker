@@ -42,7 +42,7 @@ export default function Page() {
                 </p>
 
                 <div className="mt-10 items-center">
-                    <SignIn />
+                    <SignIn fallbackRedirectUrl="/dashboard" />
                 </div>
             </div>
             </main>
