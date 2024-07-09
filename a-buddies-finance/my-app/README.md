@@ -1,5 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Checkpoints
+1:06:26
+
+## Dependencies
+```bash
+npx shadcn-ui@latest init
+
+npm install @clerk/nextjs
+
+npm i drizzle-orm @neondatabase/serverless
+npm i -D drizzle-kit
+
+```
+
 ## Getting Started
 
 First, run the development server:
