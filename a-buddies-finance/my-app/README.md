@@ -48,3 +48,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+<!-- NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_ZW5nYWdlZC1lbXUtMy5jbGVyay5hY2NvdW50cy5kZXYk
+CLERK_SECRET_KEY=sk_test_2lobJKPO3VkZF4xG7JMBnq9C2puh6hleVZrIKM6fpz
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
+NEXT_PUBLIC_CLERK_AFTER_SIGN_OUT_URL=/
+
+NEXT_PUBLIC_CLERK_PUBLIC_ROUTES='/'
+
+
+DATABASE_URL=postgresql://Ai-content-generator_owner:7CRTEQvgm0PZ@ep-shiny-breeze-a51336ag.us-east-2.aws.neon.tech/buddies-finance?sslmode=require 
+-->
