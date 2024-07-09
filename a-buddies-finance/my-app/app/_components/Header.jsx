@@ -18,7 +18,7 @@ function Header() {
         /> 
         {isSignedIn?
         <UserButton /> : <Link href={'/sign-in'}>
-        <Button>Get started</Button>
+        <Button>Get started✨</Button>
         </Link>
       }
         
