@@ -1,5 +1,5 @@
 "use client"
-// import { Button } from '@/components/ui/button.jsx'
+import { Button } from '@/components/ui/button.jsx'
 import { UserButton, useUser } from '@clerk/nextjs';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -18,10 +18,10 @@ function Header() {
         /> 
         {isSignedIn?
         <UserButton /> : <Link href={'/sign-in'}>
-        <button>get started</button>
+        <Button>Get started</Button>
         </Link>
       }
-        {/* <Button>Get started</Button> */}
+        
         
         
     </div>
